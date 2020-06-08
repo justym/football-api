@@ -28,7 +28,7 @@ jobs:
       - name: Create Pull Request 
         uses: peter-evans/create-pull-request@v2
         with:
-            token: ${{ secrets.PAT }}
+            token: ${{ secrets.UPDATESUBMODULE }}
             commit-message: Update Datasets
             title: Update Datasets
             body: |
