@@ -1,0 +1,3 @@
+[submodule "datasets"]
+	path = datasets
+	url = https://github.com/openfootball/football.json.git

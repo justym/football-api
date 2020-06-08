@@ -1,0 +1,152 @@
+swagger: "2.0"
+info:
+  description: This is a simple Football API
+  version: 1.0.0
+  title: Football API
+  # put the contact info for your development or API team
+  contact:
+    email: justym8132@gmail.com
+  #license:
+  #  name: Apache 2.0
+  #  url: http://www.apache.org/licenses/LICENSE-2.0.html
+# tags are used for organizing operations
+tags:
+  - name: teams
+    description: Teams in a Particurarly Seasons
+  - name: rounds
+    description: Rounds in a Particurarly Seasons
+
+paths:
+  /teams/{seasonCode}:
+    get:
+      tags:
+        - teams
+      summary: "Teams when the season"
+      operationId: findTeams
+      description: |
+        Teams when {seasonCode}
+      produces:
+        - application/json
+      parameters:
+        - name: seasonCode
+          in: path
+          description: pass an optional search string for looking up teams
+          required: true
+          type: string
+      responses:
+        200:
+          description: success finding teams in the seasons
+          schema:
+            $ref: "#/definitions/SeasonTeams"
+        400:
+          description: bad request
+
+  /rounds/{seasonCode}:
+    get:
+      tags:
+        - rounds
+      summary: "Teams when the season"
+      description: |
+        Rounds when {seasonCode}
+      produces:
+        - application/json
+      parameters:
+        - name: seasonCode
+          in: path
+          description: pass an optional search string for looking up rounds
+          required: true
+          type: string
+      responses:
+        200:
+          description: success finding rounds in the seasons
+          schema:
+            $ref: "#/definitions/SeasonRounds"
+        400:
+          description: bad request
+definitions:
+  SeasonTeams:
+    type: object
+    required:
+      - name
+      - club
+    properties:
+      name:
+        $ref: "#/definitions/SeasonName"
+      club:
+        type: array
+        items:
+          $ref: "#/definitions/Club"
+  SeasonRounds:
+    type: object
+    required:
+      - name
+      - rounds
+    properties:
+      name:
+        $ref: "#/definitions/SeasonName"
+      rounds:
+        type: array
+        items:
+          $ref: "#/definitions/Round"
+  Round:
+    type: object
+    required:
+      - name
+      - matches
+    properties:
+      name:
+        type: string
+        example: "Matchday 1"
+      matches:
+        type: array
+        items:
+          $ref: "#/definitions/Match"
+  Match:
+    type: object
+    required:
+      - date
+      - team1
+      - team2
+      - score1
+      - score2
+    properties:
+      date:
+        type: string
+        example: "2019-08-10"
+      team1:
+        $ref: "#/definitions/Club"
+      team2:
+        $ref: "#/definitions/Club"
+      score1:
+        $ref: "#/definitions/Score"
+      score2:
+        $ref: "#/definitions/Score"
+  SeasonName:
+    type: string
+    example: "Premier League 2010/11"
+  Club:
+    type: object
+    required:
+      - key
+      - name
+      - code
+    properties:
+      key:
+        type: string
+        example: "manutd"
+      name:
+        type: string
+        example: "Manchester United FC"
+      code:
+        type: string
+        example: "MUN"
+  Score:
+    type: integer
+    format: int64
+    example: 1
+
+# Added by API Auto Mocking Plugin
+host: localhost
+basePath: /football-api/1.0.0
+schemes:
+  - http
