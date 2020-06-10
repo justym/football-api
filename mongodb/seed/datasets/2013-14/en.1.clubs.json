@@ -1,0 +1,105 @@
+{
+  "name": "Premier League 2013/14",
+  "clubs": [
+    {
+      "key": "astonvilla",
+      "name": "Aston Villa FC",
+      "code": "AVL"
+    },
+    {
+      "key": "liverpool",
+      "name": "Liverpool FC",
+      "code": "LIV"
+    },
+    {
+      "key": "mancity",
+      "name": "Manchester City FC",
+      "code": "MCI"
+    },
+    {
+      "key": "everton",
+      "name": "Everton FC",
+      "code": "EVE"
+    },
+    {
+      "key": "chelsea",
+      "name": "Chelsea FC",
+      "code": "CHE"
+    },
+    {
+      "key": "fulham",
+      "name": "Fulham FC",
+      "code": "FUL"
+    },
+    {
+      "key": "arsenal",
+      "name": "Arsenal FC",
+      "code": "ARS"
+    },
+    {
+      "key": "manutd",
+      "name": "Manchester United FC",
+      "code": "MUN"
+    },
+    {
+      "key": "newcastle",
+      "name": "Newcastle United FC",
+      "code": "NEW"
+    },
+    {
+      "key": "westbrom",
+      "name": "West Bromwich Albion FC",
+      "code": "WBA"
+    },
+    {
+      "key": "stoke",
+      "name": "Stoke City FC",
+      "code": "STK"
+    },
+    {
+      "key": "tottenham",
+      "name": "Tottenham Hotspur FC",
+      "code": "TOT"
+    },
+    {
+      "key": "westham",
+      "name": "West Ham United FC",
+      "code": "WHU"
+    },
+    {
+      "key": "sunderland",
+      "name": "Sunderland AFC",
+      "code": "SUN"
+    },
+    {
+      "key": "hull",
+      "name": "Hull City AFC",
+      "code": "HUL"
+    },
+    {
+      "key": "cardiff",
+      "name": "Cardiff City FC",
+      "code": "CAR"
+    },
+    {
+      "key": "crystalpalace",
+      "name": "Crystal Palace FC",
+      "code": "CRY"
+    },
+    {
+      "key": "norwich",
+      "name": "Norwich City FC",
+      "code": "NOR"
+    },
+    {
+      "key": "swansea",
+      "name": "Swansea City FC",
+      "code": "SWA"
+    },
+    {
+      "key": "southampton",
+      "name": "Southampton FC",
+      "code": "SOU"
+    }
+  ]
+}

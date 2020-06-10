@@ -1,0 +1,105 @@
+{
+  "name": "Premier League 2017/18",
+  "clubs": [
+    {
+      "key": "liverpool",
+      "name": "Liverpool FC",
+      "code": "LIV"
+    },
+    {
+      "key": "mancity",
+      "name": "Manchester City FC",
+      "code": "MCI"
+    },
+    {
+      "key": "everton",
+      "name": "Everton FC",
+      "code": "EVE"
+    },
+    {
+      "key": "chelsea",
+      "name": "Chelsea FC",
+      "code": "CHE"
+    },
+    {
+      "key": "arsenal",
+      "name": "Arsenal FC",
+      "code": "ARS"
+    },
+    {
+      "key": "manutd",
+      "name": "Manchester United FC",
+      "code": "MUN"
+    },
+    {
+      "key": "newcastle",
+      "name": "Newcastle United FC",
+      "code": "NEW"
+    },
+    {
+      "key": "westbrom",
+      "name": "West Bromwich Albion FC",
+      "code": "WBA"
+    },
+    {
+      "key": "stoke",
+      "name": "Stoke City FC",
+      "code": "STK"
+    },
+    {
+      "key": "tottenham",
+      "name": "Tottenham Hotspur FC",
+      "code": "TOT"
+    },
+    {
+      "key": "westham",
+      "name": "West Ham United FC",
+      "code": "WHU"
+    },
+    {
+      "key": "burnley",
+      "name": "Burnley FC",
+      "code": "BUR"
+    },
+    {
+      "key": "crystalpalace",
+      "name": "Crystal Palace FC",
+      "code": "CRY"
+    },
+    {
+      "key": "leicester",
+      "name": "Leicester City FC",
+      "code": "LEI"
+    },
+    {
+      "key": "watford",
+      "name": "Watford FC",
+      "code": "WAT"
+    },
+    {
+      "key": "swansea",
+      "name": "Swansea City FC",
+      "code": "SWA"
+    },
+    {
+      "key": "bournemouth",
+      "name": "AFC Bournemouth",
+      "code": "BOU"
+    },
+    {
+      "key": "huddersfieldtown",
+      "name": "Huddersfield Town AFC",
+      "code": "HUD"
+    },
+    {
+      "key": "brightonhovealbionfc",
+      "name": "Brighton & Hove Albion FC",
+      "code": "BHA"
+    },
+    {
+      "key": "southampton",
+      "name": "Southampton FC",
+      "code": "SOU"
+    }
+  ]
+}
