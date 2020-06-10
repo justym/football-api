@@ -1,0 +1,105 @@
+{
+  "name": "Premier League 2015/16",
+  "clubs": [
+    {
+      "key": "astonvilla",
+      "name": "Aston Villa FC",
+      "code": "AVL"
+    },
+    {
+      "key": "liverpool",
+      "name": "Liverpool FC",
+      "code": "LIV"
+    },
+    {
+      "key": "mancity",
+      "name": "Manchester City FC",
+      "code": "MCI"
+    },
+    {
+      "key": "everton",
+      "name": "Everton FC",
+      "code": "EVE"
+    },
+    {
+      "key": "chelsea",
+      "name": "Chelsea FC",
+      "code": "CHE"
+    },
+    {
+      "key": "arsenal",
+      "name": "Arsenal FC",
+      "code": "ARS"
+    },
+    {
+      "key": "manutd",
+      "name": "Manchester United FC",
+      "code": "MUN"
+    },
+    {
+      "key": "newcastle",
+      "name": "Newcastle United FC",
+      "code": "NEW"
+    },
+    {
+      "key": "westbrom",
+      "name": "West Bromwich Albion FC",
+      "code": "WBA"
+    },
+    {
+      "key": "stoke",
+      "name": "Stoke City FC",
+      "code": "STK"
+    },
+    {
+      "key": "tottenham",
+      "name": "Tottenham Hotspur FC",
+      "code": "TOT"
+    },
+    {
+      "key": "westham",
+      "name": "West Ham United FC",
+      "code": "WHU"
+    },
+    {
+      "key": "sunderland",
+      "name": "Sunderland AFC",
+      "code": "SUN"
+    },
+    {
+      "key": "crystalpalace",
+      "name": "Crystal Palace FC",
+      "code": "CRY"
+    },
+    {
+      "key": "leicester",
+      "name": "Leicester City FC",
+      "code": "LEI"
+    },
+    {
+      "key": "norwich",
+      "name": "Norwich City FC",
+      "code": "NOR"
+    },
+    {
+      "key": "watford",
+      "name": "Watford FC",
+      "code": "WAT"
+    },
+    {
+      "key": "swansea",
+      "name": "Swansea City FC",
+      "code": "SWA"
+    },
+    {
+      "key": "bournemouth",
+      "name": "AFC Bournemouth",
+      "code": "BOU"
+    },
+    {
+      "key": "southampton",
+      "name": "Southampton FC",
+      "code": "SOU"
+    }
+  ]
+}

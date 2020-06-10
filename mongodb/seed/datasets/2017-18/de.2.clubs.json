@@ -1,0 +1,95 @@
+{
+  "name": "2. Bundesliga 2017/18",
+  "clubs": [
+    {
+      "key": "duesseldorf",
+      "name": "Fortuna Düsseldorf",
+      "code": "F95"
+    },
+    {
+      "key": "nuernberg",
+      "name": "1. FC Nürnberg",
+      "code": "FCN"
+    },
+    {
+      "key": "fuerth",
+      "name": "SpVgg Greuther Fürth",
+      "code": "SGF"
+    },
+    {
+      "key": "bochum",
+      "name": "VfL Bochum",
+      "code": "BOC"
+    },
+    {
+      "key": "braunschweig",
+      "name": "Eintracht Braunschweig",
+      "code": "EBS"
+    },
+    {
+      "key": "sandhausen",
+      "name": "SV Sandhausen",
+      "code": "SAN"
+    },
+    {
+      "key": "ingolstadt",
+      "name": "FC Ingolstadt 04",
+      "code": "FCI"
+    },
+    {
+      "key": "aue",
+      "name": "FC Erzgebirge Aue",
+      "code": "AUE"
+    },
+    {
+      "key": "stpauli",
+      "name": "FC St. Pauli",
+      "code": "STP"
+    },
+    {
+      "key": "klautern",
+      "name": "1. FC Kaiserslautern",
+      "code": "FCK"
+    },
+    {
+      "key": "dresden",
+      "name": "Dynamo Dresden",
+      "code": "SGD"
+    },
+    {
+      "key": "bielefeld",
+      "name": "Arminia Bielefeld",
+      "code": "DSC"
+    },
+    {
+      "key": "unionberlin",
+      "name": "1. FC Union Berlin",
+      "code": "FCU"
+    },
+    {
+      "key": "heidenheim",
+      "name": "1. FC Heidenheim",
+      "code": "HDH"
+    },
+    {
+      "key": "darmstadt",
+      "name": "SV Darmstadt 98",
+      "code": "D98"
+    },
+    {
+      "key": "duisburg",
+      "name": "MSV Duisburg",
+      "code": "MSV"
+    },
+    {
+      "key": "kiel",
+      "name": "Holstein Kiel",
+      "code": null
+    },
+    {
+      "key": "regensburg",
+      "name": "SSV Jahn Regensburg",
+      "code": "REG"
+    }
+  ]
+}

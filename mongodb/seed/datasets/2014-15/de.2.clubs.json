@@ -1,0 +1,95 @@
+{
+  "name": "2. Bundesliga 2014/15",
+  "clubs": [
+    {
+      "key": "duesseldorf",
+      "name": "Fortuna Düsseldorf",
+      "code": "F95"
+    },
+    {
+      "key": "nuernberg",
+      "name": "1. FC Nürnberg",
+      "code": "FCN"
+    },
+    {
+      "key": "fuerth",
+      "name": "SpVgg Greuther Fürth",
+      "code": "SGF"
+    },
+    {
+      "key": "karlsruhe",
+      "name": "Karlsruher SC",
+      "code": "KSC"
+    },
+    {
+      "key": "bochum",
+      "name": "VfL Bochum",
+      "code": "BOC"
+    },
+    {
+      "key": "tsvmuenchen",
+      "name": "TSV 1860 München",
+      "code": "M60"
+    },
+    {
+      "key": "braunschweig",
+      "name": "Eintracht Braunschweig",
+      "code": "EBS"
+    },
+    {
+      "key": "sandhausen",
+      "name": "SV Sandhausen",
+      "code": "SAN"
+    },
+    {
+      "key": "aalen",
+      "name": "VfR Aalen",
+      "code": "AAL"
+    },
+    {
+      "key": "ingolstadt",
+      "name": "FC Ingolstadt 04",
+      "code": "FCI"
+    },
+    {
+      "key": "aue",
+      "name": "FC Erzgebirge Aue",
+      "code": "AUE"
+    },
+    {
+      "key": "stpauli",
+      "name": "FC St. Pauli",
+      "code": "STP"
+    },
+    {
+      "key": "klautern",
+      "name": "1. FC Kaiserslautern",
+      "code": "FCK"
+    },
+    {
+      "key": "fsvfrankfurt",
+      "name": "FSV Frankfurt",
+      "code": "FSV"
+    },
+    {
+      "key": "unionberlin",
+      "name": "1. FC Union Berlin",
+      "code": "FCU"
+    },
+    {
+      "key": "leipzig",
+      "name": "RB Leipzig",
+      "code": "RBL"
+    },
+    {
+      "key": "heidenheim",
+      "name": "1. FC Heidenheim",
+      "code": "HDH"
+    },
+    {
+      "key": "darmstadt",
+      "name": "SV Darmstadt 98",
+      "code": "D98"
+    }
+  ]
+}
