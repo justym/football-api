@@ -1,0 +1,39 @@
+version: "3"
+
+services:
+  api:
+    container_name: api
+    build: .
+    environment:
+      - GOPATH=/go
+    volumes:
+      - ./:/go/src/github.com/justym/football-api
+    ports:
+      - 8000:8000
+    links:
+      - mongodb
+
+  web:
+    container_name: web
+    build: ./nginx
+    depends_on:
+      - api
+
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    restart: always
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongodb/db:/data/db
+
+  #Initialize db and import data
+  mongodb-seed:
+    image: mongo
+    container_name: mongo_seed
+    volumes:
+      - ./mongodb/seed:/mongo_seed
+    links:
+      - mongodb
+    command: /mongo_seed/seed.sh
